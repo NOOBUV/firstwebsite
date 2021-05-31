@@ -1,0 +1,195 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    /* background-image: linear-gradient(#0E7A7E,#72A7A9); */
+    background-color: #0D3B34;
+}
+h1 {
+    margin: 0px;
+    padding-top: 10px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #ACDFD7;
+    padding-top: 50px;
+    
+}
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #ACDFD7;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+h3 {
+    font-weight: normal;
+    color: #ACDFD7;
+    font-family: 'Montserrat', sans-serif;
+}
+button {
+    cursor: pointer;
+}
+button:hover{
+    color: gold;
+    
+}
+.pro {
+    text-decoration: underline;
+}
+.cloud1 {
+    margin-left: 420px;
+
+}
+.cloud2 {
+    margin-bottom: 260%;
+    position: absolute;
+}
+.mountain {
+    margin-top: 20px;
+    height: 20%;
+    position: relative;
+    left: 10px;
+    /* width:514px */
+}
+/* .airplane {
+    position: absolute;
+    top: 40px;
+} */
+.topcontainer {
+    background-image: linear-gradient(#0E7A7E,#0D3A33);
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+.birds {
+    width: 10%;
+    position: absolute;
+    margin-bottom: 20%;
+}
+.Contact {
+    background: none;
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    border: none;
+    width: 60px;
+    font-size: 100%;
+    color: #e4f9f5;
+    padding: 10px 30px 10px 0px;
+    display: inline-block;
+
+}
+.Projects {
+    right: 125px;
+    background: none;
+    position: absolute;
+    top: 35px;
+    border: none;
+    width: 60px;
+    font-size: 100%;
+    color: #e4f9f5;
+    padding: 10px 0px 10px 0px;
+    display: inline-block;
+}
+.header {
+    border-color: black;
+    height: 100px;
+    width: 100%;
+    background: none;
+    margin: none;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+}
+.midcontainer {
+    margin: 100px auto 100px auto;
+}
+.hi {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.profile {
+    margin-top: 100px;
+}
+.hello {
+    color: #ACDFD7;
+    margin-top: 20px;
+}
+p {
+    width: 30%;
+    color: #e4f9f5;
+    margin: auto;
+    line-height: 2;
+}
+.profilehr {
+    margin: 100px auto;
+    border-style: dotted none none;
+    width: 10%;
+    border-width: 5px;
+    border: 10px 0px 0px 0px;
+    color: #e4f9f5;
+}
+.dd {
+    width: 120px;
+    float: left;
+    margin-right: 30px;
+}
+.skillbox {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skillpara {
+    width: 100%;
+}
+.ai {
+    width: 120px;
+    float: right;
+    margin-left: 30px;
+}
+#talkai {
+    font-weight: bold;
+    color: #90BBB3;
+}
+#getintouch {
+    font-weight: normal;
+}
+#aitalks {
+    margin: 40px auto 60px auto;
+}
+.contactbutton {
+    background-color: #e4f9f5;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    color: #0d3a33;
+    box-sizing: border-box;
+}
+.contactbutton:hover {
+    background-color: #C0F9EE;
+    color: #219482;
+}
+.bottomcontainer {
+    background-color: #0d3a33;
+    color: whitesmoke;
+    padding: 50px 0px 10px;
+
+}
+a {
+    text-decoration: none;
+    margin: 10px 20px;
+    color: white;
+}
+a:hover {
+    color: gold;
+}
+.copyright {
+    font-size: 0.75rem;
+    color: #e4f9f5;
+    padding: 20px 0px;
+}
+#bottomhr {
+    margin-bottom: 50px;
+}

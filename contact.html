@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contactc.css">
+</head>
+<body>
+    <a href='index.html'> <button class='homebutton'><img src="images/house.png" alt=""></button> </a>
+    <table class="imagetable center">
+        <tr>
+            <td><a href="https://www.linkedin.com/in/utkarshvijayindo/"><img src="images/linkedinicon.svg" alt=""></a></td>
+            <td><a href="https://github.com/NOOBUV"><img src="images/githubwhite.svg" alt=""></a></td> 
+            <td><a href="https://twitter.com/IndominouS99"><img src="images/twittericon.svg" alt=""></a></td>
+        </tr>
+    </table>
+    <hr>
+    <h1 id='contactform'>Contact form   </h1>
+    <div>
+        <form action="mailto:utkarshvijay99@gmail.com" method="post">
+            
+            <label>Your Name:</label><br>
+            <input type="text" placeholder="Your Name.."> 
+            <br>
+            <label for="">Mobile Number: </label><br>
+            <input type="tel" placeholder="1234567890" maxlength="10" pattern="[0-9]{10}" required>
+            <br><br>
+            <hr class='formwalahr'>
+            <br>
+            <table class="contactclass">
+                <tr>
+                    <td><label for="">Web Devlopment: </label></td>
+                    <td><label for="">Machine Learning: </label></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input list="hellothere" class="ok">
+                        <datalist id='hellothere'>
+                            <option value="Frontend"></option>
+                            <option value="Backend"></option>
+                            <option value="Fullstack"></option>
+                        </datalist>
+                    </td>
+                    <td>
+                        <input list="hello" class="ok">
+                        <datalist id='hello'>
+                            <option value="Model preparing"></option>
+                            <option value="Deep Learning"></option>
+                            <option value="Automation"></option>
+                        </datalist>
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>

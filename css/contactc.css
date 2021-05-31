@@ -1,0 +1,113 @@
+body {
+    background-color:#0D3A33;
+    /* background-color: #fcecdd; */
+    color: #e4f9f5;
+}
+hr {
+    border-style: dotted none none;
+    width: 5%;
+    border-color:#e4f9f5; 
+    border-width: 5px;
+    margin-top: 20px;
+}
+h1,h3 {
+    color: #66bfbf;
+    /* color: #fea82f; */
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+form {
+    padding: 30px;
+    border: 1px solid black;
+    background-image: linear-gradient(#0E7A7E,#0d3a33);
+    border-radius: 8px;
+}
+div {
+    height: 125px;
+    position: absolute;
+    right: 32%;
+    width: 35%;
+}
+input[type=text] {
+
+    width: 100%;
+    background-color:#e4f9f5;;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=tel] {
+
+    width: 100%;
+    background-color:#e4f9f5;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #0E7A7E;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+input[type=submit]:hover {
+    background-color: #ACDFD7;
+    color: #0D3A33;
+}
+label {
+    display: inline-block;
+}
+/* **********************************    CLASS   ******************************************* */
+.contactclass {
+    width: 100%;
+    box-sizing: border-box;
+}
+.ok {
+    width: 90%;
+    background-color:#e4f9f5;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.imagetable {
+    align-items: center;
+    margin-top: 20px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.formwalahr {
+    width: 12%;
+    border-width: 5px;
+    margin-left: 41.5%;
+    border-color: whitesmoke;
+}
+.homebutton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background:none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.homebutton:hover {
+    color: tomato;
+}
+/* **********************************     ID   ******************************************* */
+#contactform {
+    text-align: center;
+    color: #66bfbf;
+}
